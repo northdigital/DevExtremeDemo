@@ -1,0 +1,6 @@
+wwwroot/js/generated/
+wwwroot/js/lib/
+node_modules/
+bin/
+obj/
+package-lock.json

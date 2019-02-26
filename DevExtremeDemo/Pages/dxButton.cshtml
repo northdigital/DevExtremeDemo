@@ -1,0 +1,25 @@
+﻿@page
+@model DevExtremeDemo.Pages.dxButtonModel
+@{
+  ViewData["Title"] = "dxButton";
+}
+
+<h1>dxButton</h1>
+
+<div id="btn_demo"></div>
+
+<script defer>
+  require.config({
+    baseUrl: "../js/generated/",
+    paths: {
+    },
+    waitSeconds: 10
+  });
+
+  require(["DXButtonForm"], (DXButtonFormMod) => {
+    let DXButtonForm = DXButtonFormMod.DXButtonForm;
+
+    new DXButtonForm('#btn_demo');
+  });
+</script>
+

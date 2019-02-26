@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "module": "amd",
+    "target": "es5",
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "removeComments": true,    
+    //"declaration": true,
+    //"declarationDir": "../types",
+    "outDir": "../wwwroot/js/generated",
+    "paths": {
+    }
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "../dist", "../node_modules"
+  ]
+}
