@@ -15,7 +15,10 @@
 
 
   <ItemGroup>
+    <Folder Include="typescript\Utils\" />
+    <Folder Include="typescript\Services\" />
     <Folder Include="wwwroot\js\generated\" />
+    <Folder Include="wwwroot\js\generated\Forms\" />
   </ItemGroup>
 
 </Project>

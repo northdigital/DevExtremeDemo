@@ -1,6 +1,6 @@
-/// <reference path="../wwwroot/js/lib/devextreme/ts/dx.all.d.ts" />
+/// <reference path="../../wwwroot/js/lib/devextreme/ts/dx.all.d.ts" />
 
-export class DXButtonForm {
+export class DXButtonDemoForm {
   private btnDemo: DevExpress.ui.dxButton;
 
   constructor(private btnElement: string) {

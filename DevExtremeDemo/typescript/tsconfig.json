@@ -8,12 +8,13 @@
     "removeComments": true,    
     //"declaration": true,
     //"declarationDir": "../types",
-    "outDir": "../wwwroot/js/generated",
+    "outDir": "../wwwroot/js/generated/",
+    "rootDir": "./",
     "paths": {
-    }
+    }    
   },
   "compileOnSave": true,
   "exclude": [
-    "../dist", "../node_modules"
+    "../wwwroot", "../node_modules"
   ]
 }
